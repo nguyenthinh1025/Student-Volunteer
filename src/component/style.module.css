@@ -1,0 +1,19 @@
+.carousel-item img {
+    width: 1050px;
+    height: 600px;
+}
+
+
+.slick-slider {
+    width: 1050px !important;
+}
+
+@media (max-width: 900px) {
+    .slick-slider {
+        width: 680px !important;
+    }
+}
+
+/* .pop-image {
+    padding: 46px;
+} */

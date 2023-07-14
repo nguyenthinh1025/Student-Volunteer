@@ -1,0 +1,67 @@
+.group-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 40;
+}
+
+.group-wrap {
+  border: 1px solid #cac8c8;
+  border-radius: 10px;
+  max-width: 270px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.group-item {
+  padding: 20px 20px 10px 20px;
+  background: #088dcd none repeat scroll 0 0;
+}
+
+.group-img {
+  border-radius: 50%;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin-top: -50px;
+}
+
+.group-name {
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 17px;
+}
+
+.creator {
+  margin-top: 10px;
+  color: white;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.bottom {
+  border-top: 1px solid #cac8c8;
+}
+
+.join {
+  padding: 5px 10px;
+  color: white;
+  background: #088dcd none repeat scroll 0 0;
+  width: max-content;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 13px;
+  margin: 20px;
+  float: right;
+}
+
+.body {
+  border-top: 1px solid #cac8c8;
+  padding: 20px;
+  height: 120px;
+}

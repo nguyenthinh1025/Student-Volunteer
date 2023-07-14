@@ -1,0 +1,10 @@
+@font-face {
+    font-family: fontGame;
+    /* src: url('../../assets/BaiTapGameXucXac/Font/Pony.ttf'); */
+    src: url('../../video_19_game_xuc_xac/Pony.ttf');
+}
+
+
+.fontGame {
+    font-family: fontGame;
+}

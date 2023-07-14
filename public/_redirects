@@ -1,0 +1,2 @@
+/api/* http://20.188.111.70:12348/api/v1/Posts?pageNumber=0&pageSize=0 200
+/* /index.html 200     

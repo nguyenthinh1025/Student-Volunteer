@@ -1,0 +1,60 @@
+.search-school input, textarea{
+box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.4);
+border: none;
+width: 100%;
+border-radius:7px;
+padding: 10px 20px;
+}
+
+.popup{
+ width: 700px;
+          top: 50%;
+}
+
+.item-search{
+	border: 1px solid #adb9c5;
+	border-radius:7px;
+	padding: 3px 20px;
+	cursor: pointer;
+	color: #22222c;
+}
+
+.item-search.active{
+	border: 5px solid #71cff9;
+}
+
+.list-search{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin-top:20px;
+column-gap: 10px;
+}
+
+.select-year{
+	margin-top:20px;
+	border: none;
+	background-color:#71cff9;
+	padding:10px 20px;
+	border-radius:5px;
+	color:#291b1b;
+	font-weight: bold;
+	width: 250px;
+}
+
+.selected-year{
+	padding: 5px 10px;
+	background-color: aliceblue;
+}
+
+.social{
+	display: flex;
+}
+
+.social div{
+	margin-right: 40px;
+	width: 100%;
+}
+
+
